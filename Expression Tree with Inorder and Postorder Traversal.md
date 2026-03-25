@@ -19,11 +19,16 @@ To write a Python program to build the given expression tree and print the inord
 ## PROGRAM:
 
 ```
-WRITE YOUR CODE
+from binarytree import build
+
+l=["*","+","-",9,3,8,4]
+bt=build(l)
+print(bt.inorder)
+print(bt.postorder)
 ```
 
 ## OUTPUT
-```
-```
+<img width="1024" height="104" alt="image" src="https://github.com/user-attachments/assets/8c2196d5-6af0-4782-9d65-8cd3c921c370" />
 
 ## RESULT
+Thus the program succesffuly completed the Build an Expression Tree and Print Inorder and Postorder Traversals and executrd successfully.
