@@ -22,12 +22,17 @@ To write a Python program to build and evaluate the given Expression tree.
 ## PROGRAM:
 
 ```
-WRITE YOUR CODE
+from binarytree import build
+
+l=["*","+","-",9,3,8,4]
+bt=build(l)
+print(bt.inorder)
+print(bt.postorder)
 ```
 
 ## OUTPUT:
-```
-```
+<img width="1024" height="104" alt="image" src="https://github.com/user-attachments/assets/4ac7d256-636d-41f2-a44e-1cba5d72e28e" />
+
 
 ## RESULT:
-
+Thus the program succesffuly completed the Build an Expression Tree and Print Inorder and Postorder Traversals and executrd successfully.
